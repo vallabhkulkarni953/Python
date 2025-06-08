@@ -10,7 +10,8 @@
 ---
 
 <div align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*APOQgHZ1W77OEcC7_Xy4Gg.jpeg" width="60%" alt="Python Bootcamp Banner"/>
+  <img src="![image](https://github.com/user-attachments/assets/04596a9f-7e01-4fd9-9000-3a05277c3b2c)
+" width="60%" alt="Python Bootcamp Banner"/>
 </div>
 
 ---
