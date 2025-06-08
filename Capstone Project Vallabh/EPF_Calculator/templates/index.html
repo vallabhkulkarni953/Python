@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EPF Calculator</title>
+  <link rel="stylesheet" href="../static/styles.css" />
+  <script src="../static/scripts.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="input-section">
+      <h1>EPF Calculator</h1>
+      <form method="POST" action="/">
+        <label for="salary">Monthly Salary (₹):</label>
+        <input type="range" id="salary" name="salary" min="5000" max="200000" step="1000"
+               value="{{ salary_val }}" oninput="salaryOutput.value = this.value" />
+        <output id="salaryOutput">{{ salary_val }}</output>
+
+        <label for="employer_percent">Employer Contribution (%):</label>
+        <input type="range" id="employer_percent" name="employer_percent" min="0" max="20" step="0.25"
+               value="{{ employer_val }}" oninput="employerOutput.value = this.value" />
+        <output id="employerOutput">{{ employer_val }}</output>
+
+        <label for="employee_percent">Employee Contribution (%):</label>
+        <input type="range" id="employee_percent" name="employee_percent" min="0" max="20" step="0.25"
+               value="{{ employee_val }}" oninput="employeeOutput.value = this.value" />
+        <output id="employeeOutput">{{ employee_val }}</output>
+
+        <label for="age">Current Age:</label>
+        <input type="range" id="age" name="age" min="18" max="58" step="1"
+               value="{{ age_val }}" oninput="ageOutput.value = this.value" />
+        <output id="ageOutput">{{ age_val }}</output>
+
+        <p><strong>Interest Rate: 8.25% per annum</strong></p>
+
+        <button type="submit">Calculate EPF Corpus</button>
+      </form>
+    </div>
+
+    <div class="output-section" tabindex="0" aria-live="polite">
+      <h2>EPF Corpus at Retirement</h2>
+      {% if total_amount %}
+        <p class="result">₹ {{ total_amount }}</p>
+      {% else %}
+        <p class="result">Enter the details and calculate your EPF corpus.</p>
+      {% endif %}
+    </div>
+  </div>
+    </body>
+</html>
