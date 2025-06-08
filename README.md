@@ -10,10 +10,9 @@
 ---
 
 <div align="center">
-  ![image](https://github.com/user-attachments/assets/51f75248-6ff6-4124-b272-9d013a7d4cdc)
 
-  <img src="![image](https://github.com/user-attachments/assets/04596a9f-7e01-4fd9-9000-3a05277c3b2c)
-" width="60%" alt="Python Bootcamp Banner"/>
+![image](https://github.com/user-attachments/assets/a47e3c8f-492a-438c-8af3-125a53bf22e9)
+
 </div>
 
 ---
