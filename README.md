@@ -90,9 +90,14 @@ This repository contains a **collection of concepts**, **notebooks**, and **proj
 
 ---
 
-## 🚀 How to Use
+## Gratitude to Guru :
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/python-bootcamp-journey.git
-   cd python-bootcamp-journey
+I’m incredibly grateful to **Jose Portilla** for crafting such a **comprehensive and engaging course**.  
+His teaching made complex concepts intuitive, and the hands-on approach kept me motivated throughout.
+
+This journey has been more than just learning syntax — it’s been about learning how to think in Python.  
+Thank you, Jose, for being an inspiring mentor through this virtual classroom.
+
+---
+
+Thank you for reading, please go through the profile and watch out other projects !!! 
