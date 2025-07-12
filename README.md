@@ -72,17 +72,6 @@ This repository contains a **collection of concepts**, **notebooks**, and **proj
 
 ---
 
-## 📷 Gallery Sneak Peek
-
-> _(Optional: Add screenshots or GIFs of your projects or notebooks below)_
-
-<p align="center">
-  <img src="https://i.imgur.com/Kd2rG5z.png" width="45%" alt="Blackjack Game Notebook Screenshot"/>
-  <img src="https://i.imgur.com/rFTZKE2.png" width="45%" alt="Web Scraping Notebook Screenshot"/>
-</p>
-
----
-
 ## 🎯 Why This Course?
 
 ✅ Beginner-Friendly Yet Deep  
